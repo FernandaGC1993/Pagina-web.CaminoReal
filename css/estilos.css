@@ -8,6 +8,13 @@
     color: rgb(6, 75, 48);
     font-family: 'Brush Script MT';
   }
+  #container {
+    width: 70%;
+    padding: 1cm;
+    text-align: left;
+    border: 2px solid black;
+    margin: 0 auto;
+}
 section {
     display: -webkit-flex;
     display: flex;
