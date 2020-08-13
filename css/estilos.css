@@ -1,45 +1,57 @@
 #main{
     text-align: center;
     color: rgb(6, 75, 48);
-    font-family: sans-serif;
+    font-family: 'Segoe UI';
   }
-  section {
+#cabecera{
+    text-align: center;
+    color: rgb(6, 75, 48);
+    font-family: 'Brush Script MT';
+  }
+  #container {
+    width: 70%;
+    padding: 1cm;
+    text-align: left;
+    border: 2px solid black;
+    margin: 0 auto;
+}
+section {
     display: -webkit-flex;
     display: flex;
   }
-  body {
+body {
     background-color: gainsboro;
   }
-  article {
+article {
     -webkit-flex: 2;
     -ms-flex: 2;
     flex: 2;
-    background-color: rgb(37, 126, 92);
+    background-color: rgb(14, 75, 41);
     padding: 10px;
   }
-  footer {
-    background-color: rgb(37, 126, 92);
+footer {
+    background-color: rgb(14, 75, 41);
     text-align: center
   }
-  #map {
+#map {
     height: 80%;
     width: 80%;
   }
-  .titulo {
-    color: olivedrab;
-    font-family: sans-serif;
+.titulo {
+    color: whitesmoke;
+    font-family: 'Segoe UI';
     text-align: center
   }
-  .texto {
-    color: black;
-    font-family: sans-serif;
-    font-size: 14;
+.texto {
+    color: beige;
+    font-family: 'Brush Script MT';
+    font-size: 20;
   }
-  .instruct {
+.instruct {
     color: black;
-    font-family: sans-serif;
+    font-family: 'Brush Script MT';
     text-align: center;
-    font-size: 12
+    font-size: 14
   }
   .galeria {
     height: calc( 460px + 3em);
