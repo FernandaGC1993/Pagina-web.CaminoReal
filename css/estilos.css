@@ -1,0 +1,44 @@
+#main{
+    text-align: center;
+    color: rgb(6, 75, 48);
+    font-family: sans-serif;
+  }
+  section {
+    display: -webkit-flex;
+    display: flex;
+  }
+  body {
+    background-color: gainsboro;
+  }
+  article {
+    -webkit-flex: 2;
+    -ms-flex: 2;
+    flex: 2;
+    background-color: rgb(37, 126, 92);
+    padding: 10px;
+  }
+  footer {
+    background-color: rgb(37, 126, 92);
+    text-align: center
+  }
+  #map {
+    height: 80%;
+    width: 80%;
+  }
+  .titulo {
+    color: olivedrab;
+    font-family: sans-serif;
+    text-align: center
+  }
+  .texto {
+    color: black;
+    font-family: sans-serif;
+    font-size: 14;
+  }
+  .instruct {
+    color: black;
+    font-family: sans-serif;
+    text-align: center;
+    font-size: 12
+  }
+  
